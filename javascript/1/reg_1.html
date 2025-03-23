@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- External Css (Water.css) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <!-- Form elements -->
+        <form id="registrationForm">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <input type="checkbox" id="togglePassword">Show<br>
+            
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+            <input type="checkbox" id="togglePassword">Show<br>
+            
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <!-- Javascript File -->
+    <script src="regjs_1.js"></script>
+</body>
+</html>
