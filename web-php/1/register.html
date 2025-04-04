@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <style>
+        .error {color: red;}
+        .success {color: green;}
+    </style>
+</head>
+<body>
+
+<h2>PHP Registration Form</h2>
+<p><span class="error">* required field</span></p>
+
+<form method="post" action="process.php">
+    Name: <input type="text" name="name">
+    <br><br>
+
+    Email: <input type="text" name="email">
+    <br><br>
+
+    Password: <input type="password" name="password">
+    <br><br>
+
+    Confirm Password: <input type="password" name="confirm_password">
+    <br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
